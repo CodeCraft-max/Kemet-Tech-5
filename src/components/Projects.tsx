@@ -20,7 +20,7 @@ export default function Projects() {
                   : language === 'ja'
                     ? 'ホルスのスマート戦車'
                     : 'Horus Smart Chariot',
-      image: '/horus.jpg',
+      image: 'dist/horus.jpg',
       description: language === 'ar'
         ? 'عربة ذكية تعمل بالـ Arduino مستوحاة من مصر القديمة، مع استشعار العوائق والتحكم في المحركات وتصميم أنظمة مدمجة مصقول.'
         : language === 'fr'
@@ -84,7 +84,7 @@ export default function Projects() {
                   : language === 'ja'
                     ? 'アブ・シンベル インタラクティブモデル'
                     : 'Abu Simbel Interactive Model',
-      image: '/abusimbel.jpg',
+      image: 'dist/abusimbel.jpg',
       description: language === 'ar'
         ? 'نموذج متجاوب لمتحف مع مصابيح LED وأبواب تعمل بخوادم و أتمتة تفاعلية لسرد التراث.'
         : language === 'fr'
